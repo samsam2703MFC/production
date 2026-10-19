@@ -10,9 +10,6 @@ final class ViesClient
     private const API_HOST = 'viesapi.eu';
     private const API_BASE_PATH = '/api';
 
-    /* VIESAPI.eu values from the API keys tab; intentionally kept in code. */
-    private const API_KEY_ID = 'XKJE5R2KaeXd';
-    private const API_KEY = 'pkmXKpleWAGS';
 
     private const VIES_COUNTRY_CODES = [
         'AT', 'BE', 'BG', 'CY', 'CZ', 'DE', 'DK', 'EE', 'EL', 'ES', 'FI', 'FR',
@@ -38,8 +35,9 @@ final class ViesClient
     /** @return array{vat:string,country_code:string,valid:bool,company:?string,address:?string,address_fields:?array{fac_street:string,fac_street_num:string,fac_zip:string,fac_town:string},consultation_number:?string,query_uid:?string} */
     public function lookup(string $vat): array
     {
-        if (self::API_KEY_ID === 'PASTE_VIESAPI_KEY_ID_HERE' || self::API_KEY === 'PASTE_VIESAPI_KEY_HERE') {
-            throw new ViesUnavailableException('Brak konfiguracji klucza VIESAPI.eu. Uzupełnij API_KEY_ID i API_KEY w ViesClient.');
+        [$keyId, $key] = self::credentials();
+        if ($keyId === '' || $key === '') {
+            throw new ViesUnavailableException('Brak konfiguracji klucza VIESAPI.eu. Uzupełnij VIESAPI_KEY_ID i VIESAPI_KEY w pliku .env.');
         }
 
         $normalized = self::normalizeVat($vat);
@@ -65,14 +63,24 @@ final class ViesClient
         return self::mapResponse($payload, $normalized);
     }
 
+    /** VIESAPI.eu credentials (API keys tab), read from .env. @return array{0:string,1:string} */
+    private static function credentials(): array
+    {
+        return [
+            (string) ($_ENV['VIESAPI_KEY_ID'] ?? getenv('VIESAPI_KEY_ID') ?: ''),
+            (string) ($_ENV['VIESAPI_KEY'] ?? getenv('VIESAPI_KEY') ?: ''),
+        ];
+    }
+
     /** @return array{status:int,payload:array<string,mixed>} */
     private function request(string $path): array
     {
+        [$keyId, $key] = self::credentials();
         $timestamp = (string) time();
         $nonce = bin2hex(random_bytes(6));
         $macInput = implode("\n", [$timestamp, $nonce, 'GET', $path, self::API_HOST, '443', '']) . "\n";
-        $mac = base64_encode(hash_hmac('sha256', $macInput, self::API_KEY, true));
-        $authorization = sprintf('MAC id="%s", ts="%s", nonce="%s", mac="%s"', self::API_KEY_ID, $timestamp, $nonce, $mac);
+        $mac = base64_encode(hash_hmac('sha256', $macInput, $key, true));
+        $authorization = sprintf('MAC id="%s", ts="%s", nonce="%s", mac="%s"', $keyId, $timestamp, $nonce, $mac);
 
         $handle = curl_init('https://' . self::API_HOST . $path);
         curl_setopt_array($handle, [

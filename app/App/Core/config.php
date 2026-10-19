@@ -3,14 +3,9 @@ require_once __DIR__ . '/../../public/vendor/autoload.php'; // Wczytaj autoloade
 use Dotenv\Dotenv;
 
 
+/** Baza danych: DB_HOST / DB_NAME / DB_USER / DB_PASS w pliku .env (App/Core/Database.php) **/
 if($_SERVER['SERVER_NAME'] == 'slfood.local')
 {
-    /** database config **/
-    define('DBNAME', 'erp_10');
-    define('DBHOST', 'localhost');
-    define('DBUSER', 'root');
-    define('DBPASS', '');
-    define('DBDRIVER', '');
     //define('APIPREFIXE', 'https://franchiseatelier.com/api/public/Production/');
     define('APIPREFIXE', 'http://localhost/Intranet/api/public/Production/');
 //    define('APIPREFIXE', 'https://franchiseatelier.com/api/public/Production/');
@@ -25,12 +20,6 @@ if($_SERVER['SERVER_NAME'] == 'slfood.local')
 
 }else
 {
-    /** database config **/
-    define('DBNAME', 'erp');
-    define('DBHOST', '192.168.1.150');
-    define('DBUSER', 'sam');
-    define('DBPASS', 'NhoQyQbKRSPh4Ubg3sR7DMjs5');
-    define('DBDRIVER', '');
     define('APIPREFIXE', 'https://franchiseatelier.com/api/public/Production/');
     define('ATELIER_RESOURCES_PREFIXE', 'https://franchiseatelier.com/resources/');
     //define('APIPREFIXE', 'http://localhost/Intranet/api/public/Production/');
