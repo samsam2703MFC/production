@@ -1,0 +1,66 @@
+name: Deploy ERP
+
+# À chaque push sur main : contrôle de syntaxe PHP, puis git pull sur le serveur
+# en SSH (deploy/remote.sh). Mise en place : deploy/README.md.
+#
+# Secrets : DEPLOY_HOST, DEPLOY_USER, DEPLOY_PATH, DEPLOY_SSH_KEY (DEPLOY_PORT, optionnel : 22).
+# Tant qu'ils ne sont pas tous renseignés, seul le contrôle de syntaxe tourne.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-erp
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+      DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # On refuse de livrer du code qui ne s'analyse pas.
+      - name: Contrôler la syntaxe PHP
+        run: find app -name '*.php' -not -path '*/vendor/*' -print0 | xargs -0 -n 1 -P 4 php -l > /dev/null
+
+      - name: Vérifier la configuration
+        id: cfg
+        run: |
+          missing=""
+          for v in DEPLOY_HOST DEPLOY_USER DEPLOY_PATH DEPLOY_SSH_KEY; do
+            [ -n "${!v}" ] || missing="$missing $v"
+          done
+          if [ -n "$missing" ]; then
+            echo "::warning::Déploiement ignoré, secrets manquants :$missing (voir deploy/README.md)"
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Déployer sur le serveur
+        if: steps.cfg.outputs.ready == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          { printf 'DEPLOY_PATH=%q\nGH_TOKEN=%q\nGH_REPO=%q\nDEPLOY_SHA=%q\n' \
+              "$DEPLOY_PATH" "$GH_TOKEN" "$GITHUB_REPOSITORY" "$GITHUB_SHA"
+            cat deploy/remote.sh
+          } | ssh -i ~/.ssh/deploy_key -p "${DEPLOY_PORT:-22}" \
+              -o StrictHostKeyChecking=accept-new -o ConnectTimeout=30 -o ServerAliveInterval=15 \
+              "$DEPLOY_USER@$DEPLOY_HOST" 'bash -s'
