@@ -1,9 +1,7 @@
 <?php
 namespace App\Core;
 
-use App\Controllers\Web\Auth\LoginController;
 use FastRoute\Dispatcher;
-use Symfony\Component\HttpFoundation\Response;
 
 class App
 {
@@ -25,6 +23,18 @@ class App
         $uri = isset($_GET['url']) ? '/' . trim($_GET['url'], '/') : '/';
 
         $method = $_SERVER['REQUEST_METHOD'];
+
+        // Bez zalogowania dostępne są tylko logowanie (GET/POST /) i wylogowanie
+        if (empty($_SESSION['USER']) && !in_array($uri, ['/', '/logout'], true)) {
+            if (str_starts_with($uri, '/ajax/')) {
+                http_response_code(401);
+                header('Content-Type: application/json');
+                echo json_encode(['message' => 'Unauthorized']);
+                return;
+            }
+            header('Location: ' . ROOT . '/');
+            return;
+        }
 
         $dispatcher = \FastRoute\simpleDispatcher(
             require __DIR__ . '/Routes/routes.php'
@@ -78,15 +88,8 @@ class App
             }
 
 
-            // UŻYJ lokalnego $container, nie $this->container
-            $controller = $container->get(LoginController::class);
-            $result = $controller->login(); // jeśli login() przyjmuje Request, przekaż go tutaj
-
-            if ($result instanceof Response) {
-                $result->send();
-            } else {
-                echo $result;
-            }
+            // Nieznany adres (użytkownik jest zalogowany) — wracamy na dashboard
+            header('Location: ' . ROOT . '/dashboard');
             return;
 
 //            http_response_code(404);

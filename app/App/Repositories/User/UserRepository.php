@@ -46,6 +46,8 @@ class UserRepository extends BaseRepository
 
     public function authenticate($row)
     {
+        // nowy identyfikator sesji po zalogowaniu (ochrona przed session fixation)
+        session_regenerate_id(true);
         $_SESSION['USER'] = $row;
     }
 }

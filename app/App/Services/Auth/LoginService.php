@@ -21,7 +21,7 @@ class LoginService
         $row = $this->userRepository->first(['login' => $login]);
 
         if ($row) {
-            if ($password == $row['password']) {
+            if (hash_equals((string) $row['password'], (string) $password)) {
                 $this->userRepository->authenticate($row);
                 return true;
             }

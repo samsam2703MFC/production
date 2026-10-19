@@ -23,10 +23,11 @@ class LoginController extends BaseController
 
     public function login()
     {
-        $_POST['login'] = "admin";
-        $_POST['password'] = "admin";
+        $login = trim((string) ($_POST['login'] ?? ''));
+        $password = (string) ($_POST['password'] ?? '');
 
-        if(!$this->loginService->login($_POST['login'], $_POST['password'])) {
+        if($login === '' || $password === '' || !$this->loginService->login($login, $password)) {
+            $this->errors[] = "Nieprawidłowy login lub hasło.";
             $this->view('auth/login', []);
         } else {
             header('Location: ' . ROOT . '/dashboard');
