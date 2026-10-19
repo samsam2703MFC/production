@@ -1,0 +1,112 @@
+[2025-08-01 11:08:26] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UPasdDATE product_recipe SET name = 'Beza', yield_quantity = '18000' where id...' at line 1
+[2025-08-01 19:13:21] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'parent_recipe_id' cannot be null
+[2025-08-02 01:01:24] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:01:34] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:01:37] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:17:01] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:17:02] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:17:10] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:17:10] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:17:11] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:17:28] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-02 01:29:49] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-03 01:27:41] MYSQL ERROR: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-08-03 01:31:53] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_order' in 'field list'
+[2025-08-03 01:32:02] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_order' in 'field list'
+[2025-08-04 12:00:27] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id = '3'' at line 1
+[2025-08-04 12:05:43] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id = '11'' at line 1
+[2025-08-04 12:06:29] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id = '11'' at line 1
+[2025-08-04 12:06:34] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id = '11'' at line 1
+[2025-08-05 14:30:44] MYSQL ERROR: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-08-05 14:31:04] MYSQL ERROR: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2025-08-05 18:33:47] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_employee' cannot be null
+[2025-08-06 17:52:48] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-06 17:53:00] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-06 17:53:57] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-06 17:54:06] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-06 17:54:50] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-06 17:55:00] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-06 17:55:50] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.missig_product_reason' doesn't exist
+[2025-08-07 19:29:25] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_customer' cannot be null
+[2025-08-12 08:52:25] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantity_carton' cannot be null
+[2025-08-12 08:53:25] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantity_carton' cannot be null
+[2025-08-12 08:54:25] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantity_carton' cannot be null
+[2025-08-12 14:26:11] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-08-18 20:09:01] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp.shop' doesn't exist
+[2025-08-18 20:09:08] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_franchise_network' in 'where clause'
+[2025-08-18 20:09:38] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where franchise_network_id = '1'' at line 1
+[2025-08-18 20:10:28] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where franchise_network_id = '1'' at line 1
+[2025-08-18 20:11:08] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where franchise_network_id = '1'' at line 1
+[2025-08-20 12:02:42] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2025-08-20 12:03:47] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+[2025-09-09 09:13:04] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slfood_stock.carton_stock' doesn't exist
+[2025-09-12 10:54:24] MYSQL ERROR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''50'' at line 4
+[2025-10-02 12:07:39] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantity_carton' cannot be null
+[2025-10-02 12:07:39] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantity_carton' cannot be null
+[2025-10-02 12:07:39] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'quantity_carton' cannot be null
+[2025-10-07 14:09:21] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:09:21] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:11:57] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:11:57] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b2d23fbf-d16a-4bf8-81e6-e772fe5e0220' for key 'uq_dedup'
+[2025-10-07 14:11:57] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:11:57] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6dc200cf-c956-4b8f-b8f7-e315bac39caa' for key 'uq_dedup'
+[2025-10-07 14:12:53] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:12:53] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b2d23fbf-d16a-4bf8-81e6-e772fe5e0220' for key 'uq_dedup'
+[2025-10-07 14:12:53] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:12:53] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6dc200cf-c956-4b8f-b8f7-e315bac39caa' for key 'uq_dedup'
+[2025-10-07 14:15:56] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:15:56] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b2d23fbf-d16a-4bf8-81e6-e772fe5e0220' for key 'uq_dedup'
+[2025-10-07 14:15:56] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:15:56] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6dc200cf-c956-4b8f-b8f7-e315bac39caa' for key 'uq_dedup'
+[2025-10-07 14:15:56] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:22:22] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:22:22] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'b2d23fbf-d16a-4bf8-81e6-e772fe5e0220' for key 'uq_dedup'
+[2025-10-07 14:22:22] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:22:22] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '6dc200cf-c956-4b8f-b8f7-e315bac39caa' for key 'uq_dedup'
+[2025-10-07 14:22:22] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:22:22] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '944bc54e-51e2-4b8b-b844-e8f58e37525d' for key 'uq_dedup'
+[2025-10-07 14:24:13] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:24:54] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:24:54] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:26:21] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:26:21] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:28:01] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:28:01] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:29:15] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:29:16] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:29:47] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:29:47] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:31:03] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:31:03] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:32:06] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:32:06] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:33:59] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:33:59] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:35:42] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:35:42] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:37:50] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:37:50] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:38:47] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:38:47] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:51:05] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:51:05] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:52:53] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:52:53] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 14:54:09] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 14:54:09] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 15:06:23] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 15:06:23] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '67430df8-3cdf-44ba-8d2f-74748b9dcdb9' for key 'uq_dedup'
+[2025-10-07 15:09:41] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 16:03:12] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 16:20:29] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 16:22:33] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 16:32:53] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2025-10-07 17:58:03] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'complaint_uuid' in 'where clause'
+[2025-10-07 17:58:03] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'uuid' in 'where clause'
+[2026-08-11 17:08:42] MYSQL ERROR: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'requested_action' cannot be null
+[2026-08-18 20:43:44] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rm.bdo_material_category' in 'field list'
+[2026-08-18 20:43:58] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rm.bdo_material_category' in 'field list'
+[2026-08-18 20:44:07] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rm.bdo_material_category' in 'field list'
+[2026-08-19 09:53:23] MYSQL ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'erp_21042026.final_product_ppwr_sales_packaging' doesn't exist
+[2026-08-19 10:48:18] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.identification_number' in 'field list'
+[2026-08-19 11:19:53] MYSQL ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'spr.ppwr_evidence_basis' in 'field list'

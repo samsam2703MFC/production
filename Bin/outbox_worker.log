@@ -1,0 +1,274 @@
+2025-08-25 13:02:03 [outbox-worker-39316] Uploaded proforma to S3: proformas/01K34M29DXJFJ1CWKQH924V7FX/2025/08/684556ec-0386-468f-96c4-f3b7f98bc2ef.pdf, sha256=2421573ee6fc49010eb4f222fd96718553bbdb37ba78ac3a750e4827550b1da5
+2025-08-25 13:02:03 [outbox-worker-39316] Uploaded proforma to S3: proformas/01K34M29DXJFJ1CWKQH924V7FX/2025/08/3eea9b94-20c8-4dd6-933e-17fb78a396f5.pdf, sha256=f948790edb92992c43b3cd9a112cfdadb81561551fd86110d46a97cce7f9494e
+2025-08-25 13:02:54 [outbox-worker-23344] Notified franchise for order ORD-2-67DF6C90AFAA388F proforma 684556ec-0386-468f-96c4-f3b7f98bc2ef
+2025-08-25 13:02:54 [outbox-worker-23344] Notified franchise for order ORD-2-12CECC38596B2BDA proforma 3eea9b94-20c8-4dd6-933e-17fb78a396f5
+2025-10-02 12:17:01 [outbox-worker-200] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/38eec80a-00f5-46e6-bf0b-e00e74d91be8.pdf, sha256=64f70b8137d692ad72b34f8503f696db00442194e5d5db600cbf36f7e50373cf
+2025-10-02 12:17:01 [outbox-worker-200] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/94fba7e5-661e-4a81-8580-0ae9f35867fb.pdf, sha256=1d210dfd509a5000239065f0b6e30ff45ecc6d1aeb7a24b8b01d9238b6226f48
+2025-10-02 12:17:01 [outbox-worker-200] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/8dcdb43c-b359-4c9e-a0a7-499c05282cef.pdf, sha256=a745d51be1fc62f62dae32fdbec387a6573fbae109d8d243d3ae14b576e0ac76
+2025-10-02 13:25:28 [outbox-worker-238] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/c3a78db8-3e66-45cf-b368-e397d8c62609.pdf, sha256=29dfd5a06a0e27d40322284671b70ed70182167b4b973abb87019f7e1f49ff2b
+2025-10-02 13:25:28 [outbox-worker-238] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/8c762dfb-69be-4adc-aebc-133fedb93064.pdf, sha256=b3117ce85845a3bd79a6033e9ad353055d6f77e0a740b3ccfa897995354f1162
+2025-10-02 13:25:28 [outbox-worker-238] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/ef0de2c4-528c-4a60-a4e8-3e9560b13b47.pdf, sha256=04856e3a51b9bfdb8f5fa6f0c0d36d3b97ae34af6dc6bc71781b867c7c08eb46
+2025-10-02 14:00:30 [outbox-worker-255] HTTP non-2xx (401): {
+    "status": "error",
+    "description": "UNAUTHORIZED"
+}
+2025-10-02 14:00:30 [outbox-worker-255] Job 36 retry #1 at 2025-10-02 14:00:36: callback_failed
+2025-10-02 14:00:30 [outbox-worker-255] HTTP non-2xx (401): {
+    "status": "error",
+    "description": "UNAUTHORIZED"
+}
+2025-10-02 14:00:30 [outbox-worker-255] Job 37 retry #1 at 2025-10-02 14:00:35: callback_failed
+2025-10-02 14:00:30 [outbox-worker-255] HTTP non-2xx (401): {
+    "status": "error",
+    "description": "UNAUTHORIZED"
+}
+2025-10-02 14:00:30 [outbox-worker-255] Job 38 retry #1 at 2025-10-02 14:00:35: callback_failed
+2025-10-02 14:12:12 [outbox-worker-268] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/388271d7-05d0-49f8-bb6b-de141d0613f6.pdf, sha256=1f0e7be10884bbfaa65c4e1de2f8efee0c6b5baef93ad6a781126d2dc1839354
+2025-10-02 14:12:12 [outbox-worker-268] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/7a98b464-dcf8-4cb0-b925-1644bc017866.pdf, sha256=7a282f1296916a82e1581d44eae4168dfa91d6a0f8d76b6dac11db0ebde1d337
+2025-10-02 14:12:13 [outbox-worker-268] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/c25d0eab-1af9-429d-b5c8-4e36061fbed5.pdf, sha256=41587a990e8a73b59aeba263d5038b40b7b64debc92add3c6cbd1ad369b7df13
+2025-10-02 14:12:13 [outbox-worker-268] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/e12fa1b2-fae5-4108-ac95-19b59c026550.pdf, sha256=4d015a12165bb8c7cde241d55a21c596b20c96b601e9abaabf9b43ef276f0207
+2025-10-02 14:12:40 [outbox-worker-270] Job 43 retry #1 at 2025-10-02 14:12:45: hex2bin(): Argument #1 ($string) must be of type string, null given
+2025-10-02 14:12:40 [outbox-worker-270] Job 44 retry #1 at 2025-10-02 14:12:46: hex2bin(): Argument #1 ($string) must be of type string, null given
+2025-10-02 14:12:40 [outbox-worker-270] Job 45 retry #1 at 2025-10-02 14:12:45: hex2bin(): Argument #1 ($string) must be of type string, null given
+2025-10-02 14:12:40 [outbox-worker-270] Job 46 retry #1 at 2025-10-02 14:12:46: hex2bin(): Argument #1 ($string) must be of type string, null given
+2025-10-02 14:17:30 [outbox-worker-275] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/ec58d05a-7417-49c2-8b9b-a61ba34f97e2.pdf, sha256=71eae7950d94c54287d363a7bc74ccebf5f345319d1aeaf88b63870939c9235f
+2025-10-02 14:17:30 [outbox-worker-275] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/afdb2e7a-63bf-4d1d-b94a-3f822760e1ed.pdf, sha256=e61da5300cd3433960cadf195ef4e74a7905afc8e673a45faafafb46027b1d6c
+2025-10-02 14:17:30 [outbox-worker-275] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/d1702da4-6528-4838-92fa-a1d62370a032.pdf, sha256=e6892dd3494229e6b7686be66cd7bef59b6de6b1b75e3ca683f115150f80671a
+2025-10-02 14:17:30 [outbox-worker-275] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/db947de1-d899-4dce-a5e3-9ad0f3c3e85f.pdf, sha256=7b14ead6da9cd9fe68b6129f701b63d0a0aa980415b8c99c304f8ab5c06458ad
+2025-10-02 14:17:43 [outbox-worker-277] Notified franchise for order ORD-2-89973C49203BAC56 proforma ec58d05a-7417-49c2-8b9b-a61ba34f97e2
+2025-10-02 14:17:43 [outbox-worker-277] Notified franchise for order ORD-2-A5D01AF63185B5B4 proforma afdb2e7a-63bf-4d1d-b94a-3f822760e1ed
+2025-10-02 14:17:43 [outbox-worker-277] Notified franchise for order ORD-2-BCDDE77C13921A3F proforma d1702da4-6528-4838-92fa-a1d62370a032
+2025-10-02 14:17:43 [outbox-worker-277] Notified franchise for order ORD-2-6E507D165A387AC5 proforma db947de1-d899-4dce-a5e3-9ad0f3c3e85f
+2025-10-02 14:23:50 [outbox-worker-286] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/baab497b-de8a-4d9e-a99c-c7b11f765756.pdf, sha256=b665bac905a060eb32d6a5e864bb2629015371c24621b2c4404495398f2e34f0
+2025-10-02 14:23:51 [outbox-worker-286] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/9a3ddb6f-d9f4-4dd6-8a12-12da52574967.pdf, sha256=541c313b35a817f97ca9fc93133180d88dd9cb97c67e39534241a79aa14eca4e
+2025-10-02 14:23:51 [outbox-worker-286] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/793603df-c8bb-4ece-8394-b576fff27747.pdf, sha256=f0d3cedc8b595ac401c36156714093248a5704ed4d85528a55950a8b54ca6661
+2025-10-02 14:23:51 [outbox-worker-286] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/803c731d-656c-4107-885e-3aa4f0813264.pdf, sha256=3eed901687955087de4eedca65f2d2fdc68fe4e045aec83e6ffcdc27b6988235
+2025-10-02 14:24:11 [outbox-worker-288] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:11 [outbox-worker-288] Job 59 retry #1 at 2025-10-02 14:24:16: callback_failed
+2025-10-02 14:24:11 [outbox-worker-288] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:11 [outbox-worker-288] Job 60 retry #1 at 2025-10-02 14:24:16: callback_failed
+2025-10-02 14:24:11 [outbox-worker-288] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:11 [outbox-worker-288] Job 61 retry #1 at 2025-10-02 14:24:17: callback_failed
+2025-10-02 14:24:11 [outbox-worker-288] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:11 [outbox-worker-288] Job 62 retry #1 at 2025-10-02 14:24:16: callback_failed
+2025-10-02 14:24:40 [outbox-worker-293] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:40 [outbox-worker-293] Job 59 retry #2 at 2025-10-02 14:25:14: callback_failed
+2025-10-02 14:24:40 [outbox-worker-293] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:40 [outbox-worker-293] Job 60 retry #2 at 2025-10-02 14:25:13: callback_failed
+2025-10-02 14:24:40 [outbox-worker-293] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:40 [outbox-worker-293] Job 61 retry #2 at 2025-10-02 14:25:13: callback_failed
+2025-10-02 14:24:40 [outbox-worker-293] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:24:40 [outbox-worker-293] Job 62 retry #2 at 2025-10-02 14:25:13: callback_failed
+2025-10-02 14:25:13 [outbox-worker-298] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:25:13 [outbox-worker-298] Job 59 retry #3 at 2025-10-02 14:27:17: callback_failed
+2025-10-02 14:25:13 [outbox-worker-298] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:25:13 [outbox-worker-298] Job 60 retry #3 at 2025-10-02 14:27:34: callback_failed
+2025-10-02 14:25:13 [outbox-worker-298] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:25:13 [outbox-worker-298] Job 61 retry #3 at 2025-10-02 14:27:19: callback_failed
+2025-10-02 14:25:13 [outbox-worker-298] HTTP non-2xx (500): {
+    "status": "error",
+    "description": "Validation errors in request",
+    "line": "\/var\/www\/html\/api\/v1\/Routes\/webhooksRoutes.php",
+    "file": "53",
+    "errors": "Call to undefined method App\\Api\\Controllers\\Webhook\\MaterialProformaWebhookController::confirmation()"
+}
+2025-10-02 14:25:13 [outbox-worker-298] Job 62 retry #3 at 2025-10-02 14:27:28: callback_failed
+2025-10-02 14:25:41 [outbox-worker-303] Notified franchise for order ORD-2-89973C49203BAC56 proforma baab497b-de8a-4d9e-a99c-c7b11f765756
+2025-10-02 14:25:41 [outbox-worker-303] Notified franchise for order ORD-2-A5D01AF63185B5B4 proforma 9a3ddb6f-d9f4-4dd6-8a12-12da52574967
+2025-10-02 14:25:41 [outbox-worker-303] Notified franchise for order ORD-2-BCDDE77C13921A3F proforma 793603df-c8bb-4ece-8394-b576fff27747
+2025-10-02 14:25:41 [outbox-worker-303] Notified franchise for order ORD-2-6E507D165A387AC5 proforma 803c731d-656c-4107-885e-3aa4f0813264
+2025-10-02 14:38:31 [outbox-worker-308] Notified franchise for order ORD-2-89973C49203BAC56 proforma baab497b-de8a-4d9e-a99c-c7b11f765756
+2025-10-02 14:38:31 [outbox-worker-308] Notified franchise for order ORD-2-A5D01AF63185B5B4 proforma 9a3ddb6f-d9f4-4dd6-8a12-12da52574967
+2025-10-02 14:38:31 [outbox-worker-308] Notified franchise for order ORD-2-BCDDE77C13921A3F proforma 793603df-c8bb-4ece-8394-b576fff27747
+2025-10-02 14:38:31 [outbox-worker-308] Notified franchise for order ORD-2-6E507D165A387AC5 proforma 803c731d-656c-4107-885e-3aa4f0813264
+2025-10-02 14:40:31 [outbox-worker-314] Job 59 retry #4 at 2025-10-02 14:50:45: Call to undefined function show()
+2025-10-02 14:40:31 [outbox-worker-314] Job 60 retry #4 at 2025-10-02 14:50:31: Call to undefined function show()
+2025-10-02 14:40:31 [outbox-worker-314] Job 61 retry #4 at 2025-10-02 14:51:33: Call to undefined function show()
+2025-10-02 14:40:31 [outbox-worker-314] Job 62 retry #4 at 2025-10-02 14:51:16: Call to undefined function show()
+2025-10-02 14:40:55 [outbox-worker-315] {"shop_uid":"01K4SJN5J43TK8MHJHAC3R2ZBX","franchisee_code":null,"order_key":"ORD-2-89973C49203BAC56","proforma_uuid":"baab497b-de8a-4d9e-a99c-c7b11f765756","s3_bucket":"slfood-dev-bucket","s3_key":"proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/baab497b-de8a-4d9e-a99c-c7b11f765756.pdf","checksum_sha256":"b665bac905a060eb32d6a5e864bb2629015371c24621b2c4404495398f2e34f0","size_bytes":120952,"issued_at":"2025-10-02T14:40:55+00:00"}
+2025-10-02 14:46:45 [outbox-worker-316] {"shop_uid":"01K4SJN5J43TK8MHJHAC3R2ZBX","franchisee_code":null,"order_key":"ORD-2-89973C49203BAC56","proforma_uuid":"baab497b-de8a-4d9e-a99c-c7b11f765756","s3_bucket":"slfood-dev-bucket","s3_key":"proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/baab497b-de8a-4d9e-a99c-c7b11f765756.pdf","checksum_sha256":"b665bac905a060eb32d6a5e864bb2629015371c24621b2c4404495398f2e34f0","size_bytes":120952,"issued_at":"2025-10-02T14:46:45+00:00"}
+2025-10-02 14:48:02 [outbox-worker-317] Notified franchise for order ORD-2-89973C49203BAC56 proforma baab497b-de8a-4d9e-a99c-c7b11f765756
+2025-10-02 14:48:02 [outbox-worker-317] Notified franchise for order ORD-2-A5D01AF63185B5B4 proforma 9a3ddb6f-d9f4-4dd6-8a12-12da52574967
+2025-10-02 14:48:02 [outbox-worker-317] Notified franchise for order ORD-2-BCDDE77C13921A3F proforma 793603df-c8bb-4ece-8394-b576fff27747
+2025-10-02 14:48:02 [outbox-worker-317] Notified franchise for order ORD-2-6E507D165A387AC5 proforma 803c731d-656c-4107-885e-3aa4f0813264
+2025-10-02 14:52:29 [outbox-worker-322] Notified franchise for order ORD-2-89973C49203BAC56 proforma baab497b-de8a-4d9e-a99c-c7b11f765756
+2025-10-02 14:52:29 [outbox-worker-322] Notified franchise for order ORD-2-A5D01AF63185B5B4 proforma 9a3ddb6f-d9f4-4dd6-8a12-12da52574967
+2025-10-02 14:52:29 [outbox-worker-322] Notified franchise for order ORD-2-BCDDE77C13921A3F proforma 793603df-c8bb-4ece-8394-b576fff27747
+2025-10-02 14:52:29 [outbox-worker-322] Notified franchise for order ORD-2-6E507D165A387AC5 proforma 803c731d-656c-4107-885e-3aa4f0813264
+2025-10-02 15:02:35 [outbox-worker-342] Notified franchise for order ORD-2-A5D01AF63185B5B4 proforma 9a3ddb6f-d9f4-4dd6-8a12-12da52574967
+2025-10-02 15:02:35 [outbox-worker-342] Notified franchise for order ORD-2-BCDDE77C13921A3F proforma 793603df-c8bb-4ece-8394-b576fff27747
+2025-10-02 15:02:35 [outbox-worker-342] Notified franchise for order ORD-2-6E507D165A387AC5 proforma 803c731d-656c-4107-885e-3aa4f0813264
+2025-10-02 19:06:45 [outbox-worker-386] Uploaded proforma to S3: proformas/01K4SJN5J43TK8MHJHAC3R2ZBX/2025/10/6b5ed6c4-3ef3-4295-bfc5-61e914ff3d4a.pdf, sha256=9d530b4db07cd21cd95f2c489947487f886615b551c9fb2f28e0cd42824a443f
+2025-10-02 19:06:52 [outbox-worker-388] Notified franchise for order ORD-2-8A7F02C662B9D1D9 proforma 6b5ed6c4-3ef3-4295-bfc5-61e914ff3d4a
+2025-10-07 18:11:08 [outbox-worker-895] Job 95 retry #1 at 2025-10-07 18:11:14: unknown job type: complaint.update
+2025-10-07 18:11:41 [outbox-worker-898] Job 95 retry #2 at 2025-10-07 18:12:17: unknown job type: complaint.update
+2025-10-07 18:20:34 [outbox-worker-915] HTTP non-2xx (404): 
+2025-10-07 18:20:34 [outbox-worker-915] Job 97 retry #1 at 2025-10-07 18:20:40: callback_failed
+2025-10-07 18:21:59 [outbox-worker-918] HTTP non-2xx (404): https://tfb.tfbuddy.local/api/v1/material-suppliers/complaints/update
+2025-10-07 18:21:59 [outbox-worker-918] Job 97 retry #2 at 2025-10-07 18:22:30: callback_failed
+2025-10-07 18:22:53 [outbox-worker-924] Notified franchise for complaint 
+2025-10-07 18:25:11 [outbox-worker-927] Notified franchise for complaint 
+2025-10-07 18:26:11 [outbox-worker-929] Notified franchise for complaint 
+2025-10-07 18:26:57 [outbox-worker-933] XDDDDDDDDDD array(3) {
+  ["shop_uid"]=>
+  string(26) "01K4SJN5J43TK8MHJHAC3R2ZBX"
+  ["complaint_key"]=>
+  string(22) "CMP-2-113CE7B88D7A9727"
+  ["complaint_uuid"]=>
+  NULL
+}
+<br />
+<b>Warning</b>:  Undefined array key "compensation_method" in <b>/var/www/html/api/app/Services/Material/Complaint/ComplaintService.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/app/Services/Material/Complaint/ComplaintService.php:289) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/app/Services/Material/Complaint/ComplaintService.php:289) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>10</b><br />
+{
+    "ok": true,
+    "updated": true
+}
+2025-10-07 18:26:57 [outbox-worker-933] Notified franchise for complaint 
+2025-10-07 18:28:48 [outbox-worker-936] XDDDDDDDDDD <pre>array(3) {
+  ["shop_uid"]=>
+  string(26) "01K4SJN5J43TK8MHJHAC3R2ZBX"
+  ["complaint_key"]=>
+  string(22) "CMP-2-113CE7B88D7A9727"
+  ["complaint_uuid"]=>
+  NULL
+}
+</pre>array(3) {
+  ["shop_uid"]=>
+  string(26) "01K4SJN5J43TK8MHJHAC3R2ZBX"
+  ["complaint_key"]=>
+  string(22) "CMP-2-113CE7B88D7A9727"
+  ["complaint_uuid"]=>
+  NULL
+}
+<br />
+<b>Warning</b>:  Undefined array key "compensation_method" in <b>/var/www/html/api/app/Services/Material/Complaint/ComplaintService.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/core/functions.php:35) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/core/functions.php:35) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>10</b><br />
+{
+    "ok": true,
+    "updated": true
+}
+2025-10-07 18:28:48 [outbox-worker-936] Notified franchise for complaint 
+2025-10-07 18:30:13 [outbox-worker-939] Payload Array
+2025-10-07 18:30:13 [outbox-worker-939] XDDDDDDDDDD array(3) {
+  ["shop_uid"]=>
+  string(26) "01K4SJN5J43TK8MHJHAC3R2ZBX"
+  ["complaint_key"]=>
+  string(22) "CMP-2-113CE7B88D7A9727"
+  ["complaint_uuid"]=>
+  NULL
+}
+<br />
+<b>Warning</b>:  Undefined array key "compensation_method" in <b>/var/www/html/api/app/Services/Material/Complaint/ComplaintService.php</b> on line <b>291</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/app/Services/Material/Complaint/ComplaintService.php:289) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/app/Services/Material/Complaint/ComplaintService.php:289) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>10</b><br />
+{
+    "ok": true,
+    "updated": true
+}
+2025-10-07 18:30:13 [outbox-worker-939] Notified franchise for complaint 
+2025-10-07 18:31:15 [outbox-worker-942] XDDDDDDDDDD array(7) {
+  ["shop_uid"]=>
+  string(26) "01K4SJN5J43TK8MHJHAC3R2ZBX"
+  ["complaint_key"]=>
+  string(22) "CMP-2-113CE7B88D7A9727"
+  ["compensation_method"]=>
+  string(11) "REPLACEMENT"
+  ["acceptance_status"]=>
+  string(9) "IN_REVIEW"
+  ["production_response"]=>
+  string(0) ""
+  ["closed_on"]=>
+  NULL
+  ["franchisee_uid"]=>
+  string(26) "01K4SJN5J43TK8MHJHAC3R2ZBX"
+}
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/app/Services/Material/Complaint/ComplaintService.php:289) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>9</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/api/app/Services/Material/Complaint/ComplaintService.php:289) in <b>/var/www/html/api/core/ResponseHandler.php</b> on line <b>10</b><br />
+{
+    "ok": true,
+    "updated": true
+}
+2025-10-07 18:31:15 [outbox-worker-942] Notified franchise for complaint 
+2025-10-07 18:32:29 [outbox-worker-945] XDDDDDDDDDD {
+    "ok": true,
+    "updated": true
+}
+2025-10-07 18:32:29 [outbox-worker-945] Notified franchise for complaint 
+2025-10-07 18:32:53 [outbox-worker-948] Notified franchise for complaint 
